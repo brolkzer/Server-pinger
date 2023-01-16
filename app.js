@@ -2,7 +2,7 @@ import express from "express";
 import fetch from "node-fetch";
 const app = express();
 const port = 3000;
-const urlToPing = ["https://agrafes-server.onrender.com/api/products"];
+const urlToPing = "https://agrafes-server.onrender.com/api/products";
 const self = "https://server-pinger-projects.onrender.com";
 
 app.get("/", (req, res) => {
